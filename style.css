@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
   box-sizing: border-box;
@@ -21,15 +21,15 @@ body {
 }
 
 .movie-container select {
-  background-color: #fff;
-  border: 0;
-  border-radius: 5px;
-  font-size: 14px;
-  margin-left: 10px;
-  padding: 5px 15px 5px 15px;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .container {
@@ -47,11 +47,11 @@ body {
 }
 
 .seat.selected {
-  background-color: #6feaf6;
+    background-color: #6feaf6;
 }
 
-.seat.occupied {
-  background-color: #fff;
+.seat.occupied{
+    background-color: #fff;
 }
 
 .seat:nth-of-type(2) {
@@ -67,19 +67,20 @@ body {
   transform: scale(1.2);
 }
 
-.showcase .seat:not(.occupied):hover {
-  cursor: default;
-  transform: scale(1);
+.showcase .seat:not(.occupied):hover{
+    cursor: default;
+    transform: scale(1);
 }
 
-.showcase {
-  background: rgba(0, 0, 0, 0.1);
-  padding: 5px 10px;
-  border-radius: 5px;
-  color: #777;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
+
+.showcase{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .showcase li {
@@ -90,11 +91,11 @@ body {
 }
 
 .showcase li small {
-  margin-left: 2px;
+    margin-left: 2px;
 }
 
-.row {
-  display: flex;
+.row{
+    display: flex;
 }
 
 .screen {
